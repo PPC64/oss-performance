@@ -9,7 +9,7 @@
  *
  */
 
-final class PidigitsTarget extends PerfTarget {
+final class PiDigitsTarget extends PerfTarget {
   public function getSanityCheckPath(): string {
     return '/pidigits.php';
   }
