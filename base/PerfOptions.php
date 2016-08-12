@@ -491,6 +491,7 @@ final class PerfOptions {
       'laravel5-hello-world' => () ==> new Laravel5Target($this),
       'sugarcrm-login-page' => () ==> new SugarCRMLoginPageTarget($this),
       'sugarcrm-home-page' => () ==> new SugarCRMHomePageTarget($this),
+      'toys-fasta' => () ==> new FastaTarget(),
       'toys-fibonacci' => () ==> new FibonacciTarget(),
       'toys-binarytrees' => () ==> new BinaryTreesTarget(),
       'toys-hello-world' => () ==> new HelloWorldTarget(),
