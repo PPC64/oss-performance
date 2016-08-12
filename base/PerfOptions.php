@@ -495,6 +495,7 @@ final class PerfOptions {
       'toys-fibonacci' => () ==> new FibonacciTarget(),
       'toys-binarytrees' => () ==> new BinaryTreesTarget(),
       'toys-hello-world' => () ==> new HelloWorldTarget(),
+      'toys-nbody' => () ==> new NbodyTarget(),
       'toys-pidigits' => () ==> new PiDigitsTarget(),
       'wordpress' => () ==> new WordpressTarget($this),
       'magento1' => () ==> new Magento1Target($this),
