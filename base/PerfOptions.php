@@ -497,6 +497,7 @@ final class PerfOptions {
       'toys-hello-world' => () ==> new HelloWorldTarget(),
       'toys-nbody' => () ==> new NbodyTarget(),
       'toys-pidigits' => () ==> new PiDigitsTarget(),
+      'toys-spectralnorm' => () ==> new SpectralNormTarget(),
       'wordpress' => () ==> new WordpressTarget($this),
       'magento1' => () ==> new Magento1Target($this),
     };
