@@ -110,9 +110,9 @@ $alu =
    'AGGCGGAGGTTGCAGTGAGCCGAGATCGCGCCACTGCACTCC' .
    'AGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAA';
 
-$n = 1000;
+$n = 10000;
 
-if ($_SERVER['argc'] > 1) $n = $_SERVER['argv'][1];
+//if ($_SERVER['argc'] > 1) $n = $_SERVER['argv'][1];
 
    makeCumulative($iub);
    makeCumulative($homosapiens);

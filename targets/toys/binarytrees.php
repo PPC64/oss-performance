@@ -33,7 +33,7 @@ function itemCheck($treeNode) {
 
 $minDepth = 4;
 
-$n = ($argc == 2) ? $argv[1] : 1;
+$n = 10; //($argc == 2) ? $argv[1] : 1;
 $maxDepth = max($minDepth + 2, $n);
 $stretchDepth = $maxDepth + 1;
 
